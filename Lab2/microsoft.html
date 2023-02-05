@@ -85,6 +85,9 @@
                 color:#0067b8;
                 font-weight: 500;
             }
+            #block1 a span, #block3 a span{
+                border: 2px solid transparent;
+            }
             #block1 a span:active, #block3 a span:active{
                 border: dashed #0067b8 2px;
             }
@@ -102,6 +105,10 @@
             a:hover{
                 text-decoration: underline;
                 cursor: pointer;
+            }
+            a span{
+                border: 1px solid transparent;
+                padding:2px 0;
             }
             a span:active{
                 border: dashed black 1px;
@@ -131,10 +138,12 @@
             #goup:active{
                 border: 1px dashed black;
             }
-            #six span{
+            #six{
                 padding:9px 0;
+                border: 2px solid transparent;
+                font-weight: 500;
             }
-            #six span:active{
+            #six:active{
                 border:2px dashed black;
             }
         </style>
@@ -159,7 +168,7 @@
                     <h1>Microsoft 365</h1>
                     <p>Все, что вам нужно, чтобы достичь большего за меньшее время</p>
                     <button style="width:140px; height:40px;">Для 1 человека</button>
-                    <a id="six"><span style="font-weight: 500;">До 6 человек ></span></a>
+                    <a><span id="six">До 6 человек ></span></a>
                 </div>
                 <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP5-1920x600" width="100%">
         </div>
