@@ -8,17 +8,18 @@
                 font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
                 margin: 0;
             }
-            h1{
+            h1, h2, h3{
                 font-weight: 600;
+            }
+            h1{
                 font-size: 35px;
             }
             h2{
-                font-weight: 600;
                 font-size: 30px;
             }
             h3{
-                font-weight: 600;
                 font-size: 14px;
+                margin: 14px 0 0 0;
             }
             button{
                 background-color:#0067b8; 
@@ -48,7 +49,6 @@
             }
             #block1, #block3, #footer{
                 display:flex;
-                flex-wrap: wrap;
                 flex-direction: row;
                 align-items: flex-start;
                 justify-content: space-evenly;
@@ -63,7 +63,7 @@
                 width:23%;
             }
             #footer{
-                margin: 3.5% 3.5% 0 3.5%;
+                margin: 40px 3.5% 0 3.5%;
                 padding: 20px 0;
                 clear:both;
             }
@@ -73,10 +73,8 @@
             #footer div{
                 display:flex;
                 flex-direction: column;
+                gap: 18px;
                 width:15%;
-            }
-            #footer a{
-                line-height: 2.5em;
             }
             #block1 h2, #block3 h2, #block1 p, #block3 p{
                 margin:10px 0 10px 0;
@@ -93,7 +91,7 @@
             }
             #bottom{
                 word-spacing: 2em;
-                padding:40px 6% 40px 5%;
+                padding:15px 6% 40px 5%;
                 background-color: rgb(240, 240, 240);
             }
             a{
@@ -112,7 +110,6 @@
             }
             a span:active{
                 border: dashed black 1px;
-                padding:2px 2px;
             }
             a:visited{
                 color:inherit;
@@ -136,7 +133,7 @@
             }
             #goup:hover{
                 background-color: white; 
-                box-shadow:  0 0 5px 3px #0154941c;
+                box-shadow: 0 0 5px 3px #0154941c;
             }
             #goup:active{
                 border: 1px dashed black;
